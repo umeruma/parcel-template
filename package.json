@@ -8,7 +8,7 @@
   "scripts": {
     "start": "parcel src/index.pug --open",
     "prebuild": "rm -rf dist",
-    "build": "parcel build src/index.pug"
+    "build": "parcel build src/index.pug --public-url ./"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
