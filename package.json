@@ -1,0 +1,19 @@
+{
+  "name": "Parcel_template",
+  "version": "0.1.0",
+  "main": "index.pug",
+  "author": "umeruma",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel src/index.pug --open",
+    "prebuild": "rm -rf dist",
+    "build": "parcel build src/index.pug"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "pug": "^2.0.4",
+    "stylus": "^0.54.5"
+  },
+  "dependencies": {}
+}

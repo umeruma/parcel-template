@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/main.js"],"names":["console","log"],"mappings":";AAIAA,QAAQC,IAAI","file":"main.4c08535f.js","sourceRoot":"../src","sourcesContent":["/**\n * entry point\n */\n\nconsole.log('Parcel template');\n"]}
